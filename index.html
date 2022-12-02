@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Juego</title>
+</head>
+<body>
+    <main>
+        <section class="tablero">
+            <h1>🧠 MEMOTEST 🧠</h1>
+            <table>
+                <tr>
+                    <td><button id="0" onclick="ver(0)"></button></td>
+                    <td><button id="1" onclick="ver(1)"></button></td>
+                    <td><button id="2" onclick="ver(2)"></button></td>
+                    <td><button id="3" onclick="ver(3)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick="ver(4)"></button></td>
+                    <td><button id="5" onclick="ver(5)"></button></td>
+                    <td><button id="6" onclick="ver(6)"></button></td>
+                    <td><button id="7" onclick="ver(7)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8" onclick="ver(8)"></button></td>
+                    <td><button id="9" onclick="ver(9)"></button></td>
+                    <td><button id="10" onclick="ver(10)"></button></td>
+                    <td><button id="11" onclick="ver(11)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick="ver(12)"></button></td>
+                    <td><button id="13" onclick="ver(13)"></button></td>
+                    <td><button id="14" onclick="ver(14)"></button></td>
+                    <td><button id="15" onclick="ver(15)"></button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="estadisticas">
+            <h2 id="aciertos" class="valores">Aciertos 🎯:</h2>
+            <h2 id="tiempo" class="valores">Tiempo ⏱:</h2>
+            <h2 id="movimientos" class="valores">Movimientos 🎲:</h2>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetAlert.js"></script>
+</body>
+</html>
